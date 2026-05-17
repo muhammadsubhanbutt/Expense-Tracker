@@ -54,9 +54,7 @@ expense-tracker/
 
 ### Expense Tracker UI
 
-<p align="center">
-  <img src="screenshots/expensetracker.png" width="100%">
-</p>
+![Expense Tracker](screenshots/expensetracker.png)
 
 ---
 
