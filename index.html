@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h2>Expense Tracker App</h2>
+    <div class="currentbalance">
+        <p class="money">0</p>
+        <p class="display">Current Balance (PKR)</p>
+    </div>
+    <div class="enterArea">
+        <div class="income">
+            <p class="rupee " id="come">0</p>
+            <p>Added Money</p>
+        </div>
+        <div class="expense income">
+            <p class="rupee" id="go">0</p>
+            <p>Total Expense</p>
+        </div>
+    </div>
+    <div class="inputArea">
+        <div class="input">
+             Amount:  <input type="number" placeholder="Enter amount" class="amount">
+         Description:  <input type="text" placeholder="Enter Description" class="description">
+         <!-- Income: <input type="number" placeholder="Enter income" class=" income"> -->
+        </div>
+    </div>
+      <div class="buttons">
+        <div class="one">
+        <button class="btn1">Add Money</button>
+    </div>
+    <div class="one">
+        <button class="btn1 " id="btn2">Expense</button>
+    </div>
+      </div>
+      <div class="displayArea"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
